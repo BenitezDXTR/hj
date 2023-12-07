@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<body>
+
+<h1>LIGHT BULB</h1>
+<p>Pindutin mo na sa baba ⬇⬇⬇⬇ upang mamatay o kaya mabuhay ang ilaw.
+<script>
+function light(sw){
+var pic;
+if (sw == 0){
+pic = "bulboff.jpg"
+} else {
+pic = "bulbon.jpg"
+}
+document.getElementById("myImage").src = pic;
+}
+</script>
+<img id="myImage" src="bulboff.jpg" width"100"
+height="200">
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+</body>
+</html>

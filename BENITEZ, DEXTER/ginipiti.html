@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Crecencia Drucila Lopez SHS Acquaintance Party</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <div class="testbox">
+        <form action="/">
+            <div class="banner"></div>
+            <p>Fill out the event registration to join the Field Trip.</p>
+            <hr/>
+            <fieldset>
+                <legend>Participant`s Information</legend>
+                <div class="item">
+                    <label for="name">Participant`s Full Name</label>
+                    <input id="name" type="text" name="text"/>
+                    <label for="emergencyContact">Emergency Contact Name</label>
+                    <input id="emergencyContact" type="text" name="text"/>
+                </div>
+                <label for="birthday">Birthday</label>
+                <input type="date" id="birthday" name="birthday">
+                <div class="item">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="text" name="text"/>
+                </div>
+                <div class="item">
+                    <div class="name-item">
+                        <div>
+                            <label for="contactNumber">Contact Number</label>
+                            <input type="text" id="contactNumber" name="number"/>
+                        </div>
+                        <div>
+                            <label for="emergencyContactNumber">Emergency Contact Number</label>
+                            <input type="text" id="emergencyContactNumber" name="number"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="name-item">
+                        <div>
+                            <label for="workshop">Select A Workshop</label>
+                        </div>
+                        <div>
+                            <select id="workshop">
+                                <option selected value="" disabled selected>Workshop</option>
+                                <option value="1">Ocean Park</option>
+                                <option value="2">Luneta</option>
+                                <option value="3">Enchanted Kingdom</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!-- Checkbox for additional option -->
+                <div class="item">
+                    <label>
+                        <input type="checkbox" id="additionalOption" name="additionalOption"> Check this box for additional option
+                    </label>
+                </div>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <!-- Move the second fieldset here -->
+            </fieldset>
+            <div class="btn-block">
+                <button type="submit">REGISTER</button>
+            </div>
+        </form>
+        <fieldset>
+            <label for="comment">Add A Comment</label>
+            <textarea id="comment" name="comment"></textarea>
+        </fieldset>
+    </div>
+</body>
+</html>

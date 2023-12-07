@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black; 
+  height="50px";
+width="40px";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 5px;
+  background-image: url("crest.PNG");
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+background-image: url("crest.PNG");
+<form action="/action_page.php">
+  <div class="container">
+    <h1 style="color:white;">Registration Form.</h1>
+    <p style="color:white;">Please fill in this form to register</p>
+    <hr>
+    <label for="name";><b  style="color:white;">First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="Name" id="Name" required>
+
+    <label for="name"><b style="color:white;">Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="Name" id="Name" required>
+
+    <label for="btd"><b style="color:white;">Birthday</b></label>
+    <input type="text" placeholder="Select your birthday" name="btd" id="btd" required>
+
+    <label for="contacts"><b style="color:white;">Contact no.</b></label>
+    <input type="text" placeholder=" Contact no" name="Contacts" id="Contacts" required>
+
+    <label for="contacts"><b style="color:white;">Emergency contact no.</b></label>
+    <input type="text" placeholder=" Contact no" name="Contacts" id="Contacts" required>
+	
+    <label for="email"><b style="color:white;">Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+  <label for="email"><b style="color:white;">Comments</b></label>
+    <input type="text" placeholder="Comments" name="comments" id="comments" required>
+	
+  <input type="checkbox" id="subject1" name="subject1" value="html">
+  <label for="name";><b  style="color:white;">STEM</b></label>
+  <input type="checkbox" id="subject3" name="subject3" value="philo">
+  <label for="name";><b  style="color:white;">TVL</b></label>
+  <input type="checkbox" id="subject4" name="subject4" value="pe">
+  <label for="name";><b  style="color:black;">HUMMS</b></label> 
+  <input type="checkbox" id="subject5" name="subject5" value="pr">
+  <label for="name";><b  style="color:white;">ABM</b></label>
+    <hr>
+	
+  <input type="radio" id="html" name="fav_language" value="">
+  <label for="name";><b  style="color:white;">Grade 11</b></label>
+  <input type="radio" id="html" name="fav_language" value="">
+  <label for="name";><b  style="color:white;">Grade 12</b></label>
+	
+	
+	
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+</form>
+
+</body>
+</html>
